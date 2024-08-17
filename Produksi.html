@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale = 1, user-scalable=no"
+    />
+    <title>Audit Portal | AnekaCoffee</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="assets/icon/ACI.png" type="image/x-icon" />
+
+    <!-- Font Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Calistoga&family=Modak&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Animate Style -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="dist/css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg fixed-top navbar-dark animate__animated animate__fadeInDown"
+    >
+      <div class="container">
+        <a class="navbar-brand fw-bold fs-4" href="#"
+          ><img src="assets/icon/Logo.png" alt="" width="120"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
+            <li class="nav-item">
+              <a class="nav-link mx-1" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-1" href="Produksi.html">Production</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Corporate Information
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="reports.html">Reports</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="corporate-struktur.html"
+                    >Corporate Structure</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="sertifikat.html"
+                    >Certification & Awards</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="safety.html"
+                    >Safety Information</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-1" href="AR.html">AR App</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-1" href="Contact.html">Contact Us</a>
+            </li>
+          </ul>
+          <div class="text-center">
+            <a href="mailto:info@anekacoffee.com">
+              <i class="fa-solid fa-envelope fs-5 mx-2"></i>
+            </a>
+            <a href="https://maps.app.goo.gl/5MbiLJJaT5pfRjpG8" target="_blank">
+              <i class="fa-solid fa-map-marker-alt fs-5 mx-2"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+    <!-- Main Content -->
+    <main class="container py-5 mt-5">
+      <div class="container production-container">
+        <h1 class="text-center mt-5">
+          <i class="fa fa-spinner icon"></i> PRODUCTION FLOW
+        </h1>
+
+        <!-- Carousel -->
+        <div
+          id="productionCarousel"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <!-- Sorting, Cleaning & Grading -->
+            <div class="carousel-item active">
+              <div class="row justify-content-center">
+                <div class="col-md-10">
+                  <div
+                    class="production-card h-100 d-flex flex-column align-items-center"
+                  >
+                    <img
+                      src="assets/img/process/sorting.png"
+                      class="card-img-top"
+                      alt="Sorting, Cleaning & Grading"
+                    />
+                    <div class="card-body text-center">
+                      <h5 class="production-card-title">
+                        Sorting, Cleaning & Grading
+                      </h5>
+                      <p class="production-card-text">
+                        This is the initial step where green coffee beans are
+                        meticulously sorted to remove any defects or foreign
+                        materials. This ensures that only the highest quality
+                        beans move forward in the production process.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Silo Storage -->
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-md-10">
+                  <div
+                    class="production-card h-100 d-flex flex-column align-items-center"
+                  >
+                    <img
+                      src="assets/img/process/silo-storage.png"
+                      class="card-img-top"
+                      alt="Silo Storage"
+                    />
+                    <div class="card-body text-center">
+                      <h5 class="production-card-title">Silo Storage</h5>
+                      <p class="production-card-text">
+                        After sorting, the beans are stored in silos to maintain
+                        their freshness. This controlled environment protects
+                        the beans from moisture and contaminants until they are
+                        ready for further processing.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Roasting -->
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-md-10">
+                  <div
+                    class="production-card h-100 d-flex flex-column align-items-center"
+                  >
+                    <img
+                      src="assets/img/process/roast.png"
+                      class="card-img-top"
+                      alt="Roasting"
+                    />
+                    <div class="card-body text-center">
+                      <h5 class="production-card-title">Roasting</h5>
+                      <p class="production-card-text">
+                        Roasting is a critical phase where green coffee beans
+                        are heated to high temperatures, transforming them into
+                        the brown beans we recognize. This process develops the
+                        beans' flavor and aroma, with the roast level (light,
+                        medium, or dark) significantly influencing the final
+                        taste profile.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Blending -->
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-md-10">
+                  <div
+                    class="production-card h-100 d-flex flex-column align-items-center"
+                  >
+                    <img
+                      src="assets/img/process/blend.png"
+                      class="card-img-top"
+                      alt="Blending"
+                    />
+                    <div class="card-body text-center">
+                      <h5 class="production-card-title">Blending</h5>
+                      <p class="production-card-text">
+                        In this stage, different coffee beans are blended to
+                        create a unique flavor profile. Blending allows for the
+                        combination of beans with varying characteristics to
+                        achieve a balanced and consistent flavor.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Grinding -->
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-md-10">
+                  <div
+                    class="production-card h-100 d-flex flex-column align-items-center"
+                  >
+                    <img
+                      src="https://via.placeholder.com/600x400.png?text=Grinding"
+                      class="card-img-top"
+                      alt="Grinding"
+                    />
+                    <div class="card-body text-center">
+                      <h5 class="production-card-title">Grinding</h5>
+                      <p class="production-card-text">
+                        The roasted beans are ground to the desired size
+                        depending on the brewing method. The grind size can
+                        range from coarse for methods like French press to fine
+                        for espresso, each affecting the brewing process and
+                        flavor extraction.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Extraction -->
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-md-10">
+                  <div
+                    class="production-card h-100 d-flex flex-column align-items-center"
+                  >
+                    <img
+                      src="assets/img/process/extract.png"
+                      class="card-img-top"
+                      alt="Extraction"
+                    />
+                    <div class="card-body text-center">
+                      <h5 class="production-card-title">Extraction</h5>
+                      <p class="production-card-text">
+                        During extraction, water is used to extract soluble
+                        compounds from the ground coffee, creating the coffee
+                        liquid. This process is crucial as it determines the
+                        strength and flavor of the coffee.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Filtration & Centrifugation -->
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-md-10">
+                  <div
+                    class="production-card h-100 d-flex flex-column align-items-center"
+                  >
+                    <img
+                      src="https://via.placeholder.com/600x400.png?text=Filtration+%26+Centrifugation"
+                      class="card-img-top"
+                      alt="Filtration & Centrifugation"
+                    />
+                    <div class="card-body text-center">
+                      <h5 class="production-card-title">
+                        Filtration & Centrifugation
+                      </h5>
+                      <p class="production-card-text">
+                        Post-extraction, this process involves filtering out the
+                        remaining solids and centrifuging to ensure a clear
+                        coffee liquid, free of any residual particles.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Clarification & Evaporation -->
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-md-10">
+                  <div
+                    class="production-card h-100 d-flex flex-column align-items-center"
+                  >
+                    <img
+                      src="assets/img/process/clar-eva.png"
+                      class="card-img-top"
+                      alt="Clarification & Evaporation"
+                    />
+                    <div class="card-body text-center">
+                      <h5 class="production-card-title">
+                        Clarification & Evaporation
+                      </h5>
+                      <p class="production-card-text">
+                        This step involves removing impurities and reducing
+                        water content to concentrate the coffee flavor. It's
+                        essential in producing a rich and full-bodied coffee
+                        product.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Flash-Pasteurization & Cold Storage -->
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-md-10">
+                  <div
+                    class="production-card h-100 d-flex flex-column align-items-center"
+                  >
+                    <img
+                      src="https://via.placeholder.com/600x400.png?text=Flash-Pasteurization+%26+Cold+Storage"
+                      class="card-img-top"
+                      alt="Flash-Pasteurization & Cold Storage"
+                    />
+                    <div class="card-body text-center">
+                      <h5 class="production-card-title">
+                        Flash-Pasteurization & Cold Storage
+                      </h5>
+                      <p class="production-card-text">
+                        In this step, the coffee undergoes rapid heating and
+                        cooling to kill any harmful bacteria while preserving
+                        its flavor. The coffee is then stored in cold storage to
+                        maintain freshness until it is packaged.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Spray Drying -->
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-md-10">
+                  <div
+                    class="production-card h-100 d-flex flex-column align-items-center"
+                  >
+                    <img
+                      src="https://via.placeholder.com/600x400.png?text=Spray+Drying"
+                      class="card-img-top"
+                      alt="Spray Drying"
+                    />
+                    <div class="card-body text-center">
+                      <h5 class="production-card-title">Spray Drying</h5>
+                      <p class="production-card-text">
+                        In this final stage, the coffee is transformed into a
+                        dry powder through a spray drying process, which
+                        involves converting the liquid coffee into fine
+                        particles, creating instant coffee that can be
+                        reconstituted with water.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Carousel controls -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#productionCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#productionCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <!-- Diagram Section -->
+        <div class="diagram-section mt-5">
+          <h2 class="text-center mb-4">Production Process Diagrams</h2>
+          <div class="row justify-content-center">
+            <!-- Spray Dried -->
+            <div class="col-md-4 diagram-container">
+              <img
+                src="assets/img/process/sprayy.png"
+                alt="Spray Dried Diagram"
+                class="diagram-img"
+                data-bs-toggle="modal"
+                data-bs-target="#sprayDriedModal"
+              />
+              <h3 class="diagram-title">Spray Dried Coffee Process</h3>
+            </div>
+
+            <!-- Liquid -->
+            <div class="col-md-4 diagram-container">
+              <img
+                src="assets/img/process/liq.png"
+                alt="Liquid Diagram"
+                class="diagram-img"
+                data-bs-toggle="modal"
+                data-bs-target="#liquidModal"
+              />
+              <h3 class="diagram-title">Liquid Concentrate Coffee Process</h3>
+            </div>
+
+            <!-- Ground -->
+            <div class="col-md-4 diagram-container">
+              <img
+                src="assets/img/process/gr.png"
+                alt="Ground Diagram"
+                class="diagram-img"
+                data-bs-toggle="modal"
+                data-bs-target="#groundModal"
+              />
+              <h3 class="diagram-title">Ground Coffee Process</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Modals for each diagram -->
+    <!-- Spray Dried Modal -->
+    <div
+      class="modal fade"
+      id="sprayDriedModal"
+      tabindex="-1"
+      aria-labelledby="sprayDriedModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="sprayDriedModalLabel">
+              Spray Dried Coffee Process
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="assets/img/process/sprayy.png"
+              alt="Spray Dried Diagram"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Liquid Modal -->
+    <div
+      class="modal fade"
+      id="liquidModal"
+      tabindex="-1"
+      aria-labelledby="liquidModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="liquidModalLabel">
+              Liquid Concentrate Coffee Process
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="assets/img/process/liq.png"
+              alt="Liquid Diagram"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Ground Modal -->
+    <div
+      class="modal fade"
+      id="groundModal"
+      tabindex="-1"
+      aria-labelledby="groundModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="groundModalLabel">
+              Ground Coffee Process
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="assets/img/process/gr.png"
+              alt="Ground Diagram"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mb-4">
+      <div class="col">
+        <h1 class="fw-semibold border-bottom pb-2 text-center" data-aos="fade-down" data-aos-duration="1000">
+          Product
+        </h1>
+      </div>
+    </div>
+    <section id="product">
+      <div class="container">
+          <div class="row">
+              <div class="col-6 col-md-3 pb-4">
+                <div class="cards">
+                  <div class="face faceone">
+                      <div class="content">
+                          <img src="assets/img/product/spray-dried-product.png" alt="Image">
+                      </div>
+                  </div>
+                  <div class="face facetwo">
+                      <div class="content">
+                          <p>Crafted using a proprietary multi-stage process from Arabica or Robusta beans, our gilded spray dried instant coffee retains its luscious aroma and flavour to entice the senses.</p>
+                          <a class="button" data-bs-toggle="modal" data-bs-target="#exampleModal1">Learn More</a>
+                      </div>
+                  </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Spray Dried Coffe</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="row m-3">
+                          <div class="col-md-12">
+                              <p>Crafted using a proprietary multi-stage process from Arabica or Robusta beans, our gilded spray dried instant coffee retains its luscious aroma and flavour to entice the senses.</p>
+                              <p>Instead of pasteurization, LCC can be spray-atomized and dried in a large vacuous chamber to obtain a soluble powder. PT Aneka Coffee Industry’s spray-dried instant coffee is of rare excellence – attributes of innovation and technological sophistication – and makes for a beguiling brew.</p>
+                          </div>
+                          <div class="col-md-6 g-2">
+                              <img class="mx-auto d-block img-fluid" src="assets/img/product/spray-dried-product-cart.png" width="90%">
+      
+                          </div>
+                          <div class="col-md-6">
+                              Product Specification
+                              <table class="table table-bordered ">
+                                  <tbody>
+                                    <tr>
+                                      <td>Apperance</td>
+                                      <td>Dark brown powder</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Colour</td>
+                                      <td>To be agreed</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Moisture</td>
+                                      <td>Max. 5.0%</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Density</td>
+                                      <td>To be agreed</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Particle size</td>
+                                      <td>To be agreed</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Caffeine</td>
+                                      <td>Min. 2.5%</td>
+                                    </tr>
+                                    <tr>
+                                      <td>pH</td>
+                                      <td>4.6 – 5.5</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Total Plate Count</td>
+                                      <td>Max. 3.0 × 10³ colony/gr</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Yeast and Mould</td>
+                                      <td>Max. 1.0 × 10² colony/gr</td>
+                                    </tr>
+                                  </tbody>
+                              </table>  
+                          </div>
+                          <div class="col-md-12">
+                              <p>Shelf Life:<br> months from production date in a fresh and dry place storage condition</p>
+                          </div>
+                          <div class="col-md-12">
+                              <p>Packing:<br> BULK, 30 kg net packed with Plastic Bag (LLDPE) 0.15 mm each carton</p>
+                          </div>
+                          <div class="col-md-12">
+                              <p>Loading Capacity:
+                                  <ul>
+                                      <li>BULK 30 kg, 200 cartons (6,000 kg net) in 20’ container</li>
+                                      <li>BULK 30 kg, 415 cartons (12,450 kg net) in 40’ container</li>
+                                  </ul> 
+                              </p> 
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Aglomerated Coffee -->
+              <div class="col-6 col-md-3 pb-4">
+                <div class="cards">
+                  <div class="face faceone">
+                      <div class="content">
+                          <img src="assets/img/product/Aglomerated-coffee.png" alt="Image">
+                      </div>
+                  </div>
+                  <div class="face facetwo">
+                      <div class="content">
+                          <p>A complementary augmentation of the spray dried instant coffee adds refinement and charming visual appeal.
+                          </p>
+                          <a class="button" data-bs-toggle="modal" data-bs-target="#exampleModal2">Learn More</a>
+                      </div>
+                  </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Agglomerated-coffee</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="row m-3">
+                          <div class="col-md-12">
+                              <p>A complementary augmentation of the spray dried instant coffee adds refinement and charming visual appeal.
+                              </p>
+                              <p>With an additional step in the process, spray-dried instant coffee can also be made into delightful agglomerated instant coffee; poise with rich body and good taste.</p>
+                          </div>
+                          <div class="col-md-6 g-2">
+                              <img class="mx-auto d-block img-fluid" src="assets/img/product/Box Agglo.png" width="90%">
+      
+                          </div>
+                          <div class="col-md-6">
+                              Product Specification
+                              <table class="table table-bordered ">
+                                  <tbody>
+                                    <tr>
+                                      <td>Apperance</td>
+                                      <td>Dark brown granules</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Colour</td>
+                                      <td>To be agreed</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Moisture</td>
+                                      <td>Max. 5.0%</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Density</td>
+                                      <td>To be agreed</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Particle size</td>
+                                      <td>To be agreed</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Caffeine</td>
+                                      <td>Min. 2.5%</td>
+                                    </tr>
+                                    <tr>
+                                      <td>pH</td>
+                                      <td>4.6 – 5.5</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Total Plate Count</td>
+                                      <td>Max. 3.0 × 10³ colony/gr</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Yeast and Mould</td>
+                                      <td>Max. 1.0 × 10² colony/gr</td>
+                                    </tr>
+                                  </tbody>
+                              </table>  
+                          </div>
+                          <div class="col-md-12">
+                              <p>Shelf Life:<br> 24 months from production date in a fresh and dry place storage condition</p>
+                          </div>
+                          <div class="col-md-12">
+                              <p>Packing:<br> BULK, 25 kg net packed with Plastic Bag (LLDPE) 0.15 mm each carton</p>
+                          </div>
+                          <div class="col-md-12">
+                              <p>Loading Capacity:
+                                  <ul>
+                                      <li>BULK 25 kg, 240 cartons (6,000 kg net) in 20’ container</li>
+                                      <li>BULK 25 kg, 495 cartons (12,375 kg net) in 40’ container</li>
+                                  </ul> 
+                              </p> 
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Liquid Concentrate Coffee -->
+              <div class="col-6 col-md-3 pb-4">
+                <div class="cards">
+                  <div class="face faceone">
+                      <div class="content">
+                          <img src="assets/img/product/liquid.png" alt="Image">
+                      </div>
+                  </div>
+                  <div class="face facetwo">
+                      <div class="content">
+                          <p>A delectable concoction from our finest Arabica or Robusta beans – a bespoke ambrosia for the discerning connoisseur.</p>
+                          <a class="button" data-bs-toggle="modal" data-bs-target="#exampleModal4">Learn More</a>
+                      </div>
+                  </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Liquid Concentrate Coffee</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="row m-3">
+                          <div class="col-md-12">
+                              <p>A delectable concoction from our finest Arabica or Robusta beans – a bespoke ambrosia for the discerning connoisseur.</p>
+                              <p>Just as carbon tempers into diamonds under immense pressure, so too does our masterfully roasted coffee beans transmute into ambrosia when extracted under high pressure with superheated water. By using a patented double-extraction and aroma recovery process, the preservation of alluring but volatile aromatic essences are achieved with remarkable capacity. This flash-pasteurized nectar will triumph the senses of even the most exacting standards.
+                              </p>
+                          </div>
+                          <div class="col-md-6 g-2">
+                              <img class="mx-auto d-block img-fluid" src="assets/img/product/liquid-drum.png" width="60%">
+      
+                          </div>
+                          <div class="col-md-6">
+                              Product Specification
+                              <table class="table table-bordered ">
+                                  <tbody>
+                                    <tr>
+                                      <td>Apperance</td>
+                                      <td>
+                                        Uniform dark brown viscous liquid</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Colour</td>
+                                      <td>To be agreed</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Moisture</td>
+                                      <td>Max. 5.0%</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Density</td>
+                                      <td>To be agreed</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Particle size</td>
+                                      <td>To be agreed</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Caffeine</td>
+                                      <td>Min. 2.5%</td>
+                                    </tr>
+                                    <tr>
+                                      <td>pH</td>
+                                      <td>4.6 – 5.5</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Total Plate Count</td>
+                                      <td>Max. 3.0 × 10³ colony/gr</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Yeast and Mould</td>
+                                      <td>Max. 1.0 × 10² colony/gr</td>
+                                    </tr>
+                                  </tbody>
+                              </table>  
+                          </div>
+                          <div class="col-md-12">
+                              <p>Shelf Life:<br>3 years on storage condition -18°C</p>
+                          </div>
+                          <div class="col-md-12">
+                              <p>Packing:
+                                <ul>
+                                  <li>20 kg net in Plastic Pail with Plastic Bag (LLDPE) 0.15mm</li>
+                                  <li>200 kg net in Steel Drum with double Plastic Bag (LLDPE) 0.15mm</li>
+                                </ul>
+                          </div>
+                          <div class="col-md-12">
+                              <p>Loading Capacity:
+                                  <ul>
+                                      <li>756 pails (15,120 kg net) in 20’ reefer container</li>
+                                      <li>60 drums (12,000 kg net) in 20’ reefer container</li>
+                                  </ul> 
+                              </p> 
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Roasted Beans -->
+              <div class="col-6 col-md-3 pb-4">
+                <div class="cards">
+                  <div class="face faceone">
+                      <div class="content">
+                          <img src="assets/img/product/RB.png" alt="Image">
+                      </div>
+                  </div>
+                  <div class="face facetwo">
+                      <div class="content">
+                          <p>Quintessential coffee perfection and the hallmark of our very best. Dare to indulge.</p>
+                          <a class="button" data-bs-toggle="modal" data-bs-target="#exampleModal3">Learn More</a>
+                      </div>
+                  </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Roasted Beans</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="row m-3">
+                          <div class="col-md-12">
+                              <p>Quintessential coffee perfection and the hallmark of our very best. Dare to indulge.</p>
+                              <p>The green coffee bean’s long journey to become an exquisite brew first begins at the source: Arabica or Robusta green coffee beans from sustainable sources are cleaned, graded and sorted before being flawlessly roasted in one of many top-of-the-line roasting machines.</p>
+                          </div>
+                          <div class="col-md-6 g-2">
+                              <img class="mx-auto d-block img-fluid" src="assets/img/product/Box-Roasted.png" width="80%">
+      
+                          </div>
+                          <div class="col-md-6">
+                              Product Specification
+                              <table class="table table-bordered ">
+                                  <tbody>
+                                    <tr>
+                                      <td>Colour</td>
+                                      <td>To be agreed</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Moisture</td>
+                                      <td>Max. 5.0%</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Caffeine</td>
+                                      <td>Min. 1.5%</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Total Plate Count</td>
+                                      <td>
+                                        Max. 1.0 × 10⁶ colony/gr</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Yeast and Mould</td>
+                                      <td>
+                                        Max. 1.0 × 10⁴ colony/gr</td>
+                                    </tr>
+                                  </tbody>
+                              </table>  
+                          </div>
+                          <div class="col-md-12">
+                              <p>Shelf Life:<br> 12 months from production date in a fresh and dry place storage condition</p>
+                          </div>
+                          <div class="col-md-12">
+                              <p>Packing:<br> BULK, 20 kg net packed with Plastic Bag (LLDPE) 0.15 mm each carton</p>
+                          </div>
+                          <div class="col-md-12">
+                              <p>Loading Capacity:
+                                  <ul>
+                                      <li>BULK 20 kg, 325 cartons (6,500 kg net) in 20’ container</li>
+                                      <li>BULK 20 kg, 670 cartons (13,400 kg net) in 40’ container</li>
+                                  </ul> 
+                              </p> 
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Ground Coffee -->
+              <div class="col-6 col-md-3 pb-4">
+                <div class="cards">
+                  <div class="face faceone">
+                      <div class="content">
+                          <img src="assets/img/product/Ground-Coffee.png" alt="Image">
+                      </div>
+                  </div>
+                  <div class="face facetwo">
+                      <div class="content">
+                          <p>Perfection and convenience – what more can one ask for?</p>
+                          <a class="button" data-bs-toggle="modal" data-bs-target="#exampleModal5">Learn More</a>
+                      </div>
+                  </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Ground Coffee</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="row m-3">
+                          <div class="col-md-12">
+                              <p>Perfection and convenience – what more can one ask for?</p>
+                              <p>Flawlessly roasted coffee beans are delicately grinded under temperature-controlled conditions to ensure exceptional, full-flavoured quality.</p>
+                          </div>
+                          <div class="col-md-6 g-2">
+                              <img class="mx-auto d-block img-fluid" src="assets/img/product/ground.png" width="80%">
+      
+                          </div>
+                          <div class="col-md-6">
+                              Product Specification
+                              <table class="table table-bordered ">
+                                  <tbody>
+                                    <tr>
+                                      <td>Apperance</td>
+                                      <td>Dark brown powder</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Colour</td>
+                                      <td>To be agreed</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Moisture</td>
+                                      <td>Max. 5.0%</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Particle size</td>
+                                      <td>To be agreed</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Caffeine</td>
+                                      <td>Min. 1.5%</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Total Plate Count</td>
+                                      <td>Max. 1.0 × 10⁶ colony/gr</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Yeast and Mould</td>
+                                      <td>
+                                        Max. 1.0 × 10⁴ colony/gr</td>
+                                    </tr>
+                                  </tbody>
+                              </table>  
+                          </div>
+                          <div class="col-md-12">
+                              <p>Shelf Life:<br>12 months from production date in a fresh and dry place storage condition</p>
+                          </div>
+                          <div class="col-md-12">
+                              <p>Packing:<br> BULK, 25 kg net packed with Plastic Bag (LLDPE) 0.15 mm each carton</p>
+                          </div>
+                          <div class="col-md-12">
+                              <p>Loading Capacity:<br>For Ground Coffee
+                                  <ul>
+                                      <li>Bulk 25 kg, 325 cartons (8,125 kg net) in 20’ container</li>
+                                      <li>Bulk 25 kg, 670 cartons (16,750 kg net) in 40’ container</li>
+                                  </ul> 
+                                  For MicroGround Coffee  
+                                  <ul>
+                                    <li>Bulk 25 kg, 390 cartons (9,750 kg net) in 20’ container</li>
+                                    <li>Bulk 25 kg, 810 cartons (20,250 kg net) in 40’ container</li>
+                                  </ul>
+                              </p> 
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </div>
+    </section>
+    
+
+    <!-- Footer -->
+    <div class="footer pt-5">
+      <div class="container">
+        <div class="row row-cols-lg-3 row-cols-1 justify-content-between">
+          <div class="col col-lg-5 mb-lg-0 mb-4">
+            <h2 class="fw-bold text-white mb-3">
+              <img src="assets/icon/Logo.png" alt="" width="120" />
+            </h2>
+            <p class="text-white-50">
+              Providing high-quality coffee and exceptional service. Contact us
+              for more information about our products and services.
+            </p>
+          </div>
+          <div class="col col-lg-3 d-flex flex-column mb-4 mb-lg-0">
+            <h5 class="fw-bold text-white mb-3">Contact (Factory)</h5>
+            <a href="#" class="text-decoration-none text-white-50 mt-2"
+              >Raya Trosobo KM. 23 Kec. Taman, Sidoarjo 61257 Jawa Timur -
+              Indonesia</a
+            >
+            <a href="#" class="text-decoration-none text-white-50 mt-2"
+              >Telp. : (62-31) 897 1064, 897 1073</a
+            >
+            <a href="#" class="text-decoration-none text-white-50 mt-2"
+              >Fax : (62-31) 897 3508</a
+            >
+          </div>
+          <div class="col col-lg-3 d-flex flex-column">
+            <h5 class="fw-bold text-white mb-3">Contact (Marketing Office)</h5>
+            <a href="#" class="text-decoration-none text-white-50 mt-2"
+              >39th floor, Wisma 46 Kota BNI Jl. Jend. Sudirman Kav. 1 Jakarta
+              10220 - Indonesia</a
+            >
+            <a href="#" class="text-decoration-none text-white-50 mt-2"
+              >Telp. : (62-21) 3973 7378 (hunting)</a
+            >
+            <a href="#" class="text-decoration-none text-white-50 mt-2"
+              >Email : info@anekacoffee.com</a
+            >
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p class="text-white text-center copyright">
+              &copy; <span id="current-year"></span> ACI Audit Portal. Designed and developed by Yurida
+              Zani, Dimas Hammam Abdillah, and Muhammad Dwiki Ramadani. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+
+    <!-- JS -->
+    <script src="dist/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      document.getElementById("current-year").textContent = new Date().getFullYear();
+      AOS.init();
+    </script>
+  </body>
+</html>

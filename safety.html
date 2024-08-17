@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>Corporate Information | Document Library</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous" />
+  <link rel="shortcut icon" href="assets/icon/ACI.png" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="dist/css/style.css" />
+</head>
+<body id="home">
+      <!-- Navbar -->
+      <nav
+      class="navbar navbar-expand-lg fixed-top navbar-dark animate__animated animate__fadeInDown"
+    >
+      <div class="container">
+        <a class="navbar-brand fw-bold fs-4" href="#"
+          ><img src="assets/icon/Logo.png" alt="" width="120"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
+            <li class="nav-item">
+              <a class="nav-link mx-1" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-1" href="Produksi.html">Production</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Corporate Information
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="reports.html">Reports</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="corporate-struktur.html"
+                    >Corporate Structure</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="sertifikat.html"
+                    >Certification & Awards</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="safety.html"
+                    >Safety Information</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-1" href="AR.html">AR App</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-1" href="Contact.html">Contact Us</a>
+            </li>
+          </ul>
+          <div class="text-center">
+            <a href="mailto:info@anekacoffee.com">
+              <i class="fa-solid fa-envelope fs-5 mx-2"></i>
+            </a>
+            <a href="https://maps.app.goo.gl/5MbiLJJaT5pfRjpG8" target="_blank">
+              <i class="fa-solid fa-map-marker-alt fs-5 mx-2"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+   <!-- Main Content -->
+  <main class="container py-5 mt-5">
+    <div class="container">
+      <h1 class="text-center mt-5"><i class="fas fa-shield-alt icon"></i> Safety Information</h1>
+
+      <!-- Search and Sort Section -->
+      <div class="row search-bar g-2">
+        <div class="col-md-6 position-relative">
+          <input type="text" id="searchInput" class="form-control" placeholder="Search safety information...">
+          <span class="clear-search" id="clearSearch">&times;</span>
+        </div>
+        <div class="col-md-6 text-end">
+          <select id="sortSelect" class="form-select" aria-label="Sort safety information">
+            <option value="name">Sort by Name</option>
+            <option value="type">Sort by Type</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Search Results Section -->
+      <div class="search-results" id="searchResults">
+        <h2>Search Results <span class="clear-search" id="closeSearchResults">&times;</span></h2>
+        <div class="document-table">
+          <table class="table table-hover" id="resultsTable">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Document Name</th>
+                <th scope="col">Document Type</th>
+                <th scope="col">Action</th>
+              </tr>
+            </thead>
+            <tbody id="resultsBody">
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Safety Procedures Section -->
+      <div class="document-section collapsed" id="safetyProceduresSection">
+        <div class="document-header" data-bs-toggle="collapse" data-bs-target="#safetyProceduresCollapse" role="button" aria-expanded="false" aria-controls="safetyProceduresCollapse">
+          <i class="fas fa-exclamation-triangle icon"></i>
+          <h2>Safety Procedures</h2>
+        </div>
+        <div class="collapse" id="safetyProceduresCollapse">
+          <div class="document-table">
+            <table class="table table-hover" id="safetyProceduresTable">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Procedure Name</th>
+                  <th scope="col">Type</th>
+                  <th scope="col">Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td><img src="https://via.placeholder.com/40" alt="doc icon" class="document-icon"> Fire Safety Procedure</td>
+                  <td>Procedure</td>
+                  <td><button class="btn btn-download" onclick="confirmDownload('Fire Safety Procedure')"><i class="fas fa-download"></i> Download</button></td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td><img src="https://via.placeholder.com/40" alt="doc icon" class="document-icon"> Emergency Evacuation Procedure</td>
+                  <td>Procedure</td>
+                  <td><button class="btn btn-download" onclick="confirmDownload('Emergency Evacuation Procedure')"><i class="fas fa-download"></i> Download</button></td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="pagination-container">
+              <div>
+                Show 
+                <select id="safetyProceduresEntries" class="form-select d-inline-block" style="width: auto;">
+                  <option value="10">10</option>
+                  <option value="25">25</option>
+                  <option value="50">50</option>
+                  <option value="100">100</option>
+                </select>
+                entries
+              </div>
+              <ul class="pagination">
+                <li class="page-item disabled"><a class="page-link" href="#" tabindex="-1">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Download Confirmation Modal -->
+  <div class="modal fade" id="downloadModal" tabindex="-1" aria-labelledby="downloadModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content bg-coffee">
+        <div class="modal-header">
+          <h5 class="modal-title" id="downloadModalLabel">Confirm Download</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Are you sure you want to download <span id="docName"></span>?
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-download">Download</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Footer -->
+<div class="footer pt-5">
+  <div class="container">
+    <div class="row row-cols-lg-3 row-cols-1 justify-content-between">
+      <div class="col col-lg-5 mb-lg-0 mb-4">
+        <h2 class="fw-bold text-white mb-3">
+          <img src="assets/icon/Logo.png" alt="" width="120" />
+        </h2>
+        <p class="text-white-50">
+          Providing high-quality coffee and exceptional service. Contact us
+          for more information about our products and services.
+        </p>
+      </div>
+      <div class="col col-lg-3 d-flex flex-column mb-4 mb-lg-0">
+        <h5 class="fw-bold text-white mb-3">Contact (Factory)</h5>
+        <a href="#" class="text-decoration-none text-white-50 mt-2"
+          >Raya Trosobo KM. 23 Kec. Taman, Sidoarjo 61257 Jawa Timur -
+          Indonesia</a
+        >
+        <a href="#" class="text-decoration-none text-white-50 mt-2"
+          >Telp. : (62-31) 897 1064, 897 1073</a
+        >
+        <a href="#" class="text-decoration-none text-white-50 mt-2"
+          >Fax : (62-31) 897 3508</a
+        >
+      </div>
+      <div class="col col-lg-3 d-flex flex-column">
+        <h5 class="fw-bold text-white mb-3">Contact (Marketing Office)</h5>
+        <a href="#" class="text-decoration-none text-white-50 mt-2"
+          >39th floor, Wisma 46 Kota BNI Jl. Jend. Sudirman Kav. 1 Jakarta
+          10220 - Indonesia</a
+        >
+        <a href="#" class="text-decoration-none text-white-50 mt-2"
+          >Telp. : (62-21) 3973 7378 (hunting)</a
+        >
+        <a href="#" class="text-decoration-none text-white-50 mt-2"
+          >Email : info@anekacoffee.com</a
+        >
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <p class="text-white text-center copyright">
+          &copy; <span id="current-year"></span> ACI Audit Portal. Designed and developed by Yurida
+          Zani, Dimas Hammam Abdillah, and Muhammad Dwiki Ramadani. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+
+
+  <!-- JS -->
+  <script src="dist/js/script.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  <script>
+    document.getElementById("current-year").textContent = new Date().getFullYear();
+    document.querySelectorAll('.document-header').forEach(header => {
+      header.addEventListener('click', function() {
+        const section = this.closest('.document-section');
+        section.classList.toggle('collapsed');
+      });
+    });
+
+    document.querySelectorAll('.btn-download').forEach(button => {
+      button.addEventListener('click', function() {
+        const docName = document.getElementById('docName').innerText;
+        const link = document.createElement('a');
+        link.href = `download/${docName}`;
+        link.download = docName;
+        link.click();
+      });
+    });
+
+    const searchInput = document.getElementById('searchInput');
+    const clearSearch = document.getElementById('clearSearch');
+    const searchResults = document.getElementById('searchResults');
+    const closeSearchResults = document.getElementById('closeSearchResults');
+
+    searchInput.addEventListener('input', function() {
+      const searchValue = this.value.toLowerCase();
+      filterTable('safetyProceduresTable', searchValue);
+      showSearchResults(searchValue);
+      clearSearch.style.display = searchValue ? 'block' : 'none';
+      if (!searchValue) {
+        searchResults.style.display = 'none';
+      }
+    });
+
+    clearSearch.addEventListener('click', function() {
+      searchInput.value = '';
+      filterTable('safetyProceduresTable', '');
+      searchResults.style.display = 'none';
+      clearSearch.style.display = 'none';
+    });
+
+    closeSearchResults.addEventListener('click', function() {
+      searchResults.style.display = 'none';
+    });
+
+    document.getElementById('sortSelect').addEventListener('change', function() {
+      sortTable('safetyProceduresTable', this.value);
+    });
+
+    function filterTable(tableId, filterValue) {
+      const table = document.getElementById(tableId);
+      const rows = table.querySelectorAll('tbody tr');
+      rows.forEach(row => {
+        const cells = Array.from(row.getElementsByTagName('td'));
+        if (cells.some(cell => cell.innerText.toLowerCase().includes(filterValue.toLowerCase()))) {
+          row.style.display = '';
+        } else {
+          row.style.display = 'none';
+        }
+      });
+    }
+
+    function sortTable(tableId, sortBy) {
+      const table = document.getElementById(tableId);
+      const rows = Array.from(table.querySelectorAll('tbody tr'));
+      rows.sort((a, b) => {
+        const aValue = a.querySelector(`td:nth-child(${sortBy === 'name' ? 2 : 3})`).innerText;
+        const bValue = b.querySelector(`td:nth-child(${sortBy === 'name' ? 2 : 3})`).innerText;
+        return aValue.localeCompare(bValue);
+      });
+      const tbody = table.querySelector('tbody');
+      tbody.innerHTML = '';
+      rows.forEach(row => tbody.appendChild(row));
+    }
+
+    function showSearchResults(searchValue) {
+      const resultsTable = document.getElementById('resultsTable');
+      const resultsBody = document.getElementById('resultsBody');
+      const sections = ['safetyProceduresTable'];
+      let results = [];
+
+      sections.forEach(section => {
+        const table = document.getElementById(section);
+        const rows = table.querySelectorAll('tbody tr');
+        rows.forEach(row => {
+          const cells = Array.from(row.getElementsByTagName('td'));
+          if (cells.some(cell => cell.innerText.toLowerCase().includes(searchValue))) {
+            results.push(row.cloneNode(true));
+          }
+        });
+      });
+
+      resultsBody.innerHTML = '';
+      if (results.length > 0) {
+        results.forEach(result => resultsBody.appendChild(result));
+        searchResults.style.display = 'block';
+      } else {
+        searchResults.style.display = 'none';
+      }
+    }
+  </script>
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
